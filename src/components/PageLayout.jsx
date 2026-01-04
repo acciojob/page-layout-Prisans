@@ -1,11 +1,11 @@
 import React from 'react'
 
-const PageLayout = ({childProp}) => {
+const PageLayout = ({header,footer, children}) => {
   return (
     <div>
-        <header>Welcome to my website</header>
-        <p>{childProp}</p>
-        <footer>&copy; 2023 My Website. All rights reversed</footer>
+        <h1>{header}</h1>
+        {children}
+        <footer>{footer}</footer>
     </div>
   )
 }

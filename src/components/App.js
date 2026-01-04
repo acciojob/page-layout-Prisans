@@ -7,7 +7,11 @@ const App = () => {
   let str = "This is the content of my website"
   return (
     <div>
-        <PageLayout childProp={str}/>
+        <PageLayout header="Welcome to my website" footer=" &copy; 2023 My Website. All rights reversed.">
+          
+        <p>This is the content of my website</p>
+
+        </PageLayout>
     </div>
   )
 }
