@@ -4,12 +4,12 @@ import './../styles/App.css';
 import PageLayout from "./PageLayout";
 
 const App = () => {
-  let str = "This is the content of my website"
+
   return (
     <div>
         <PageLayout header="Welcome to my website" footer=" &copy; 2023 My Website. All rights reversed.">
-          
-        <p>This is the content of my website</p>
+
+        <p>This is the content of my website.</p>
 
         </PageLayout>
     </div>
